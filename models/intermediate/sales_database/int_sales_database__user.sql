@@ -1,7 +1,7 @@
 WITH  orders_summary AS (
 SELECT
  user_id,
- user_city,
+ user_city as HOP,
  user_state,
  SUM(total_order_amount) AS total_amount_spent,
  SUM(total_items) as total_items,
