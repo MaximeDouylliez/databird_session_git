@@ -1,5 +1,7 @@
 SELECT DATE_TRUNC(order_created_at, DAY) AS branche3,
     mapping.account_manager,
+	1 AS hello,
+	2 AS herlo,
     mapping.state,
     COUNT(DISTINCT order_id) AS total_orders,
     AVG(total_distinct_items) AS average_total_distinct_items,
