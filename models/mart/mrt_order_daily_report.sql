@@ -1,5 +1,7 @@
 SELECT DATE_TRUNC(order_created_at, DAY) AS branche3,
     mapping.account_manager,
+	2 AS toto,
+	2 AS totof,
 	1 AS hello,
 	2 AS herlo,
     mapping.state,
