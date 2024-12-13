@@ -1,6 +1,8 @@
 with order_item_grouped_by_order as (
 
 select order_id,
+rebase 1-commit 1
+rebase 1-commit 2
     user_id,
     order_status,
     order_created_at,
