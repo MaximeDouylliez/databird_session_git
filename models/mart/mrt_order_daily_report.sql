@@ -11,4 +11,4 @@ FROM {{ ref('int_sales_database__order') }} AS orders
 LEFT JOIN {{ ref('stg_google_sheets__account_manager_region_mapping') }} as mapping ON orders.user_state = mapping.state
 GROUP BY report_date,
     account_manager,
-    state
+    stat=
