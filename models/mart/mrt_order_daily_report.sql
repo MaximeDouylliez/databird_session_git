@@ -1,4 +1,4 @@
-SELECT DATE_TRUNC(order_created_at, DAY) AS branche1,
+SELECT DATE_TRUNC(order_created_at, DAY) AS branche3,
     mapping.account_manager,
     mapping.state,
     COUNT(DISTINCT order_id) AS total_orders,
