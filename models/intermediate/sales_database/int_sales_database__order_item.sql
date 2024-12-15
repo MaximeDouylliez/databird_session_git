@@ -1,4 +1,5 @@
 SELECT oi.order_id,
+rebase 1 commit 1
     order_item_id, 
     total_order_item_amount,
     item_quantity,

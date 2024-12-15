@@ -1,7 +1,8 @@
 WITH  orders_summary AS (
 SELECT
  user_id,
- user_city,
+ user_city as HOPop,
+ mon rebase 4 après merge
  user_state,
  SUM(total_order_amount) AS total_amount_spent,
  SUM(total_items) as total_items,
