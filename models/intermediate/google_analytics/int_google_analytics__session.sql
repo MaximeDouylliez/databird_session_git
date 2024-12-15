@@ -17,6 +17,7 @@ WITH session_data AS (
 
 SELECT
   user_pseudo_id,
+  2 as rebase2
   ga_session_id,
   1 as rebaseC1,
   CONCAT(user_pseudo_id, '-', ga_session_id) AS unique_session_id, 
